@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    width: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a.active {
+    font-weight: bold;
+}
+
+.about-section {
+    padding: 40px;
+}
+
+.about-section h1 {
+    color: #004080;
+}
+
+.about-section p {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info,
+.payment-methods {
+    flex: 1;
+    text-align: left;
+}
+
+.payment-methods ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.payment-methods img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.payment-methods li:last-child {
+    margin-right: 0;
+}
+
+.payment-logo {
+    width: 50px;
+    margin: 5px;
+}
+
+.contact-info h3,
+.payment-methods h3 {
+    border-bottom: 2px solid #ff9800;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
